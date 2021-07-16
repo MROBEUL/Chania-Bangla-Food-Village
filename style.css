@@ -3,6 +3,27 @@ body{
     margin:0px;
     padding: 0px;
 }
+.menu-items {
+    width: 100%;
+    background: blueviolet;
+    display: flex;
+    padding: 15px;
+}
+
+.menu-bar a{
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right;
+    padding: 10px 20px;
+}
+.menu-bar a:hover {
+    color: red;
+}
+.menu:hover{
+    background-color: green;  
+}
 h1{
     font-size: 35px;
 }
@@ -12,6 +33,7 @@ h1{
 }
 .flexible-container{
     display: flex;
+    padding-top: 10px;
 }
 #link{
     color: white;
